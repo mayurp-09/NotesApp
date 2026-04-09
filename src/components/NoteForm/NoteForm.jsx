@@ -12,7 +12,8 @@ const NoteForm = ({ addNote, mode }) => {
   }
 
   return (
-    <div className={`${mode ? 'bg-gray-800 text-white' : 'bg-white text-black'} p-4 rounded shadow max-w-md mx-auto transition-colors duration-300`}>
+    <div className={`${mode ? 'bg-gray-800 text-white' : 'bg-white text-black'} 
+    p-4 rounded shadow max-w-md mx-auto transition-colors duration-300`}>
       <form onSubmit={handleSubmit}>
 
         <input
