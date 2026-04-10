@@ -8,8 +8,8 @@ const NoteList = ({ notes, deleteNote, mode }) => {
           key={index}
           className={`p-5 rounded-xl shadow-lg transition duration-300
             ${mode
-              ? `${note.color} text-gray-800 hover:shadow-xl hover:scale-105`
-              : `${note.color} text-gray-800 hover:shadow-xl hover:scale-105`
+              ? `${note.color} text-gray-900 hover:shadow-xl hover:scale-105`
+              : `${note.color} text-gray-900 hover:shadow-xl hover:scale-105`
             }
           `}
         >
@@ -19,7 +19,7 @@ const NoteList = ({ notes, deleteNote, mode }) => {
           </h2>
 
           {/* Description */}
-          <p className={`${mode ? 'text-gray-300' : 'text-gray-800'} mt-2`}>
+          <p className={`${mode ? 'text-gray-700' : 'text-gray-700'} mt-2 font-medium`}>
             {note.description}
           </p>
 
